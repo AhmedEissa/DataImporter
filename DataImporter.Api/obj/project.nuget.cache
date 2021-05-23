@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "QtpG/1zR41AzNQvfhDx7c4rFHeiM44T/L8fx1pAfPIaadx4Pg5wS3gyQZA6mPmoY05jIDu9V9Z5htsJi6eoF2g==",
+  "dgSpecHash": "rOaekFvDTExjN2HtDDeKzGoWh75LYTxq0a3DIsUtvCNWwE3sKV0C+hok2TsGHtsbB/3SPr6kn2UDyuwFE8swFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Master\\Source\\Repos\\DataImporter\\DataImporter.Api\\DataImporter.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Master\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
