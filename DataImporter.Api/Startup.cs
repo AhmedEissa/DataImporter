@@ -11,7 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using DataImporter.Repository;
-
+using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataImporter.Api
 {
@@ -29,8 +30,9 @@ namespace DataImporter.Api
     { 
         services.AddControllers();
 
-        services.AddDbContext<Product>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+        services.AddEntityFrameworkSqlServer().AddDbContext<ProductDbContext>(options => 
+            options.UseSqlServer(Configuration.GetConnectionString( "ConnectionString"))
+        );
         services.AddMvc();
 
     }

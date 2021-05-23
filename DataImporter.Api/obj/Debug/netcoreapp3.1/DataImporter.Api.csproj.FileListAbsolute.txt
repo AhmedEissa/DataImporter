@@ -19,3 +19,5 @@ C:\Users\Master\Source\Repos\DataImporter\DataImporter.Api\obj\Debug\netcoreapp3
 C:\Users\Master\Source\Repos\DataImporter\DataImporter.Api\obj\Debug\netcoreapp3.1\staticwebassets\DataImporter.Api.StaticWebAssets.xml
 C:\Users\Master\Source\Repos\DataImporter\DataImporter.Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\DataImporter.Api.styles.css
 C:\Users\Master\Source\Repos\DataImporter\DataImporter.Api\obj\Debug\netcoreapp3.1\DataImporter.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
