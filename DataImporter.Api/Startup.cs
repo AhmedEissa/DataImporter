@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -25,21 +26,17 @@ namespace DataImporter.Api
 
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
-    {
-            services.AddControllers();
-            
-            services.AddEntityFrameworkSqlServer().AddDbContext<ProductDbContext>(options =>
-              {
-                  options.UseSqlServer(Configuration["ConnectionString"],
-                                       sqlOptions => sqlOptions.MigrationsAssembly(typeof(Startup).GetTypeInfo().
-                                                                                            Assembly.GetName().Name));
-              }, ServiceLifetime.Scoped); // Note that Scoped is the default choice
+    { 
+        services.AddControllers();
 
+        services.AddDbContext<Product>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+        services.AddMvc();
 
     }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
       if (env.IsDevelopment())
       {

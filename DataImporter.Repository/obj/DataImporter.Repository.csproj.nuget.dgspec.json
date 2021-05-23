@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Master\\Source\\Repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj": {}
+    "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Master\\Source\\Repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj": {
+    "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Master\\Source\\Repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj",
         "projectName": "DataImporter.Repository",
-        "projectPath": "C:\\Users\\Master\\Source\\Repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj",
+        "projectPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj",
         "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Master\\Source\\Repos\\DataImporter\\DataImporter.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

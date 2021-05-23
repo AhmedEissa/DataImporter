@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mDQYnsBNa58ZQ/JWAhcSpXz7T8PbWAH0yAnkx1KQK9/HGsRm8GOhnAruWDu7Pyu+NxXsu630De86dfHYUGV2KA==",
+  "dgSpecHash": "h0q58x+Nk5mhU3r+0Kq5w1GsiRximg5URrjDmnmp4ru8spY8UVfs6r72HwxNeGnbB4Va8QZg5txG8ymloqNeGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Master\\Source\\Repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Master\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
