@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace DataImporter.Core
+namespace DataImporter.Repository
 {
     public class CompaniesDbContext : DbContext
     {

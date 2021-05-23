@@ -1,8 +1,10 @@
 ﻿using System;
 
+
 namespace DataImporter.ConsoleApp
 {
-  class Program
+  
+    class Program
   {
     static void Main(string[] args)
     {
