@@ -2,23 +2,21 @@
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 
-namespace DataImporter.Core.Entities
+namespace DataImporter.Core.Models
 {
-    public class Feed
+    public class Company
     {
         public int id { get; set; }
-        [Required]
-        public int compID { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
         public DateTime addedWhen { get; set; }
         [Required]
-        public string addedBy { get; set; }
+        public string  addedBy { get; set; }
     }
 
-    internal class MyFeed : DbContext
+    internal class MyCompanies : DbContext
     {
-        public DbSet<Feed> Feeds { get; set; }
+        public DbSet<Company> Companies { get; set; }
     }
 }

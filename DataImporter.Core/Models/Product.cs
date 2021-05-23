@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 
-namespace DataImporter.Core.Entities
+namespace DataImporter.Core.Models
 {
     public class Product
     {
