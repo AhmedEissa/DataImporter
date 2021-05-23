@@ -1,8 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.Data.Entity;
 
-namespace DataImporter.Core.Models
+namespace DataImporter.Core
 {
     public class Company
     {
@@ -15,8 +14,5 @@ namespace DataImporter.Core.Models
         public string  addedBy { get; set; }
     }
 
-    internal class MyCompanies : DbContext
-    {
-        public DbSet<Company> Companies { get; set; }
-    }
+
 }

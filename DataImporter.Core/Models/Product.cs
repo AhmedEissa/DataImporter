@@ -1,8 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.Data.Entity;
 
-namespace DataImporter.Core.Models
+namespace DataImporter.Core
 {
     public class Product
     {
@@ -21,10 +20,5 @@ namespace DataImporter.Core.Models
         public DateTime addedWhen { get; set; }
         [Required]
         public string addedBy { get; set; }
-    }
-
-    internal class MyProduct : DbContext
-    {
-        public DbSet<Product> Products { get; set; }
     }
 }

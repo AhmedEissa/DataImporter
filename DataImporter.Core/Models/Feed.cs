@@ -1,8 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.Data.Entity;
 
-namespace DataImporter.Core.Models
+namespace DataImporter.Core
 {
     public class Feed
     {
@@ -15,10 +14,5 @@ namespace DataImporter.Core.Models
         public DateTime addedWhen { get; set; }
         [Required]
         public string addedBy { get; set; }
-    }
-
-    internal class MyFeed : DbContext
-    {
-        public DbSet<Feed> Feeds { get; set; }
     }
 }
