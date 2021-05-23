@@ -1,0 +1,13 @@
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.csprojAssemblyReference.cache
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.AssemblyInfoInputs.cache
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.AssemblyInfo.cs
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.csproj.CoreCompileInputs.cache
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\bin\Debug\netcoreapp3.1\DataImporter.Core.dll.config
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\bin\Debug\netcoreapp3.1\DataImporter.Core.deps.json
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\bin\Debug\netcoreapp3.1\DataImporter.Core.runtimeconfig.json
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\bin\Debug\netcoreapp3.1\DataImporter.Core.runtimeconfig.dev.json
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\bin\Debug\netcoreapp3.1\DataImporter.Core.dll
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\bin\Debug\netcoreapp3.1\DataImporter.Core.pdb
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.dll
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.pdb
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.genruntimeconfig.cache

@@ -12,7 +12,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using DataImporter.Repository;
 using System.Data.Entity;
+using DataImporter.Repository.Contexts;
+using DataImporter.Repository.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 
 namespace DataImporter.Api
 {
@@ -27,14 +30,21 @@ namespace DataImporter.Api
 
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
-    { 
+    {
         services.AddControllers();
+        RegisterServices(services);
 
-        services.AddEntityFrameworkSqlServer().AddDbContext<ProductDbContext>(options => 
-            options.UseSqlServer(Configuration.GetConnectionString( "ConnectionString"))
-        );
+        services.AddEntityFrameworkSqlServer().AddDbContext<DataImporterDbContext>(options =>
+        {
+            options.UseSqlServer(Configuration["ConnectionString"],
+                sqlOptions => sqlOptions.MigrationsAssembly(typeof(Startup).GetTypeInfo().Assembly.GetName().Name));
+        });
         services.AddMvc();
+    }
 
+    private void RegisterServices(IServiceCollection services)
+    {
+        services.AddTransient<IProductRepository, ProductRepository>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
