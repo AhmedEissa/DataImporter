@@ -1572,6 +1572,35 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "DataImporter.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DataImporter.Repository": "1.0.0",
+          "EntityFramework": "6.4.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.6"
+        },
+        "compile": {
+          "bin/placeholder/DataImporter.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataImporter.Core.dll": {}
+        }
+      },
+      "DataImporter.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.6"
+        },
+        "compile": {
+          "bin/placeholder/DataImporter.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataImporter.Repository.dll": {}
+        }
       }
     }
   },
@@ -6014,10 +6043,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "DataImporter.Core/1.0.0": {
+      "type": "project",
+      "path": "../DataImporter.Core/DataImporter.Core.csproj",
+      "msbuildProject": "../DataImporter.Core/DataImporter.Core.csproj"
+    },
+    "DataImporter.Repository/1.0.0": {
+      "type": "project",
+      "path": "../DataImporter.Repository/DataImporter.Repository.csproj",
+      "msbuildProject": "../DataImporter.Repository/DataImporter.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DataImporter.Core >= 1.0.0",
       "EntityFramework >= 6.4.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.6"
     ]
@@ -6056,7 +6096,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj": {
+              "projectPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

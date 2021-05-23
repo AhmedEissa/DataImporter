@@ -11,3 +11,7 @@ C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\bin\Debug\netcoreapp
 C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.dll
 C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.pdb
 C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.genruntimeconfig.cache
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\bin\Debug\netcoreapp3.1\DataImporter.Repository.dll
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\bin\Debug\netcoreapp3.1\DataImporter.Repository.pdb
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\bin\Debug\netcoreapp3.1\DataImporter.Repository.dll.config
+C:\Users\Master\Source\repos\DataImporter\DataImporter.Core\obj\Debug\netcoreapp3.1\DataImporter.Core.csproj.CopyComplete

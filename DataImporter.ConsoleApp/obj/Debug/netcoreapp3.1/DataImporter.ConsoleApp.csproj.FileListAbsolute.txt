@@ -69,3 +69,9 @@ C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netc
 C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\DataImporter.Core.dll
+C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\DataImporter.Repository.dll
+C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\DataImporter.Core.pdb
+C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\DataImporter.Core.dll.config
+C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\DataImporter.Repository.pdb
+C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\DataImporter.Repository.dll.config
