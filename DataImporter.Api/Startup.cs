@@ -34,11 +34,14 @@ namespace DataImporter.Api
         services.AddControllers();
         RegisterServices(services);
 
-        services.AddEntityFrameworkSqlServer().AddDbContext<DataImporterDbContext>(options =>
-        {
-            options.UseSqlServer(Configuration["ConnectionString"],
-                sqlOptions => sqlOptions.MigrationsAssembly(typeof(Startup).GetTypeInfo().Assembly.GetName().Name));
-        });
+        services.AddDbContext<DataImporterDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DataImporter")));
+
+        //    services.AddEntityFrameworkSqlServer().AddDbContext<DataImporterDbContext>(options =>
+        //{
+        //    options.UseSqlServer(Configuration["DataImporter"],
+        //        sqlOptions => sqlOptions.MigrationsAssembly(typeof(Startup).GetTypeInfo().Assembly.GetName().Name));
+        //});
         services.AddMvc();
     }
 
