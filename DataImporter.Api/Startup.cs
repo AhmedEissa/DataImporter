@@ -12,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using DataImporter.Repository;
 using System.Data.Entity;
+using DataImporter.Core;
+using DataImporter.Core.Abstractions;
 using DataImporter.Repository.Contexts;
 using DataImporter.Repository.Services;
 using Microsoft.EntityFrameworkCore;
@@ -42,10 +44,11 @@ namespace DataImporter.Api
     private void RegisterServices(IServiceCollection services)
     {
         services.AddTransient<IProductRepository, ProductRepository>();
+        services.AddTransient<IProductService, ProductService>();
     }
 
-    // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
       if (env.IsDevelopment())
       {

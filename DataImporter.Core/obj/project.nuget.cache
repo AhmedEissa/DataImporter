@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WzhAIFkWRvCutGGekNSBG/UuXfmmt/9Iub6Zq0JrvYuPD4ylX1Q1Gk9zaIDW8QAqREWXOA9Y35R1N82DBHVSoA==",
+  "dgSpecHash": "cVtrJitbFE0kiy4eABM0iA7+y9PuUofXXryudtCEWMkpGtcZ5S6obj+jrX/EBNSp90WrrsrzBLwNcYGRdsn0Dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj",
+  "projectFilePath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Master\\.nuget\\packages\\csvhelper\\27.0.4\\csvhelper.27.0.4.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

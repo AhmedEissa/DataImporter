@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using DataImporter.Core;
-using DataImporter.Core.Services;
 using DataImporter.Repository;
+using DataImporter.Repository.Contexts;
+using DataImporter.Repository.Services;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace DataImporter.ConsoleApp
@@ -15,12 +17,14 @@ namespace DataImporter.ConsoleApp
         {
             string filesPath = Environment.CurrentDirectory;
             filesPath = filesPath + "\\TestData";
-            var csvService = new CSVService();
-            Console.Write(filesPath);
-            Console.ReadLine();
+            //var csvService = new CSVService();
             //csvService.LoadFiles(filesPath);
-            //var dataImportSvr = new DataImporterService();
-            //dataImportSvr.ImportData(List<Product> prod);
+            var optionBuilder = new DbContextOptionsBuilder<DataImporterDbContext>();
+            optionBuilder.UseSqlServer("Server=localhost;...");//put the connection str from the config file
+            var context = new DataImporterDbContext(optionBuilder.Options);
+
+            var dataImportSvr = new DataImporterService(new ProductRepository(context));
+            dataImportSvr.ImportDataFromPath(filesPath);
 
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rzSj0PrbSG8NI4h2Mj38u8k2wxwhl+SsZRP6a+1yRGqD0+g7LL6FCz53nIl8iazt3Jb5Bt/JFopLJPW+OezEiw==",
+  "dgSpecHash": "M5EjhZMjMOrYfy+lBV0YjVo3Zb9uiOKu0bkL0vWd+8UFkhv/fVHdhV6k4sOZaIeMwNtZLuSy+iRX2J0jsZaO2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Api\\DataImporter.Api.csproj",
+  "projectFilePath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Api\\DataImporter.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Master\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

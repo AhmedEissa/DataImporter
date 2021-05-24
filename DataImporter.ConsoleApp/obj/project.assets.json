@@ -6070,11 +6070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.ConsoleApp\\DataImporter.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.ConsoleApp\\DataImporter.ConsoleApp.csproj",
       "projectName": "DataImporter.ConsoleApp",
-      "projectPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.ConsoleApp\\DataImporter.ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.ConsoleApp\\DataImporter.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6097,8 +6097,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj": {
-              "projectPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj"
+            "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj": {
+              "projectPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj"
             }
           }
         }

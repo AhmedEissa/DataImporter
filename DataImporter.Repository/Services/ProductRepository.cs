@@ -16,7 +16,7 @@ namespace DataImporter.Repository.Services
             this._dataImporterDbContext = dataImporterDbContext;
         }
 
-        public IEnumerable<Product> GetAllAsync()
+        public IEnumerable<Product> GetAll()
         {
             return _dataImporterDbContext.Products;
         }
@@ -29,7 +29,16 @@ namespace DataImporter.Repository.Services
         public async Task SaveAsync(Product product)
         {
             _dataImporterDbContext.Products.Add(product);
-            await _dataImporterDbContext.SaveChangesAsync(); 
+            await _dataImporterDbContext.SaveChangesAsync();
+        }
+        public async Task SaveAsync(List<Product> products)
+        {
+            foreach (var product in products)
+            {
+                _dataImporterDbContext.Products.Add(product);
+            }
+
+            await _dataImporterDbContext.SaveChangesAsync();
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0C+mHWzrzwUSoOwHLTKY7lRMfxeg9TQzFB61d8xTYeJQ9jODmyS6cEaqhOOufMrPQ7BMQKlKtmNQEdwilzKphA==",
+  "dgSpecHash": "pWOQ5spQsM9cfAFEl4TBDyjQmjVywW55XVbdDNVtaxzyB9fbXDXFrVYRFnoqA4c10zL04Nl0sCHzM/2uzVsSig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core.Tests\\DataImporter.Core.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core.Tests\\DataImporter.Core.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Master\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

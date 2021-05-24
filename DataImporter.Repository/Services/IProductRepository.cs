@@ -8,6 +8,7 @@ namespace DataImporter.Repository.Services
     {
         Task SaveAsync(Product product);
         Task<Product> GetByIdAsync(int id);
-        IEnumerable<Product> GetAllAsync();
+        IEnumerable<Product> GetAll();
+        Task SaveAsync(List<Product> products);
     }
 }

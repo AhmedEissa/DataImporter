@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj": {}
+    "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj": {
+    "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj",
         "projectName": "DataImporter.Core",
-        "projectPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj",
+        "projectPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj",
         "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\obj\\",
+        "outputPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj": {
-                "projectPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj"
+              "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj": {
+                "projectPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.0.4, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
@@ -78,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj": {
+    "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj",
         "projectName": "DataImporter.Repository",
-        "projectPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj",
+        "projectPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj",
         "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -6130,11 +6130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Api\\DataImporter.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Api\\DataImporter.Api.csproj",
       "projectName": "DataImporter.Api",
-      "projectPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Api\\DataImporter.Api.csproj",
+      "projectPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Api\\DataImporter.Api.csproj",
       "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Api\\obj\\",
+      "outputPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6157,11 +6157,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj": {
-              "projectPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj"
+            "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj": {
+              "projectPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Core\\DataImporter.Core.csproj"
             },
-            "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj": {
-              "projectPath": "C:\\Users\\Master\\Source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj"
+            "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj": {
+              "projectPath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Repository\\DataImporter.Repository.csproj"
             }
           }
         }
