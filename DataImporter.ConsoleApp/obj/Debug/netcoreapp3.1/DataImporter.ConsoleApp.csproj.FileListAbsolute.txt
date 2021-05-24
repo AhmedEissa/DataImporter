@@ -75,3 +75,4 @@ C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netc
 C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\DataImporter.Core.dll.config
 C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\DataImporter.Repository.pdb
 C:\Users\Master\Source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\DataImporter.Repository.dll.config
+C:\Users\Master\source\repos\DataImporter\DataImporter.ConsoleApp\bin\Debug\netcoreapp3.1\CsvHelper.dll

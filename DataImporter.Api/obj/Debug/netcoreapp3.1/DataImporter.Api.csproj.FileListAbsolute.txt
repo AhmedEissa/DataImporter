@@ -76,3 +76,4 @@ C:\Users\Master\Source\repos\DataImporter\DataImporter.Api\obj\Debug\netcoreapp3
 C:\Users\Master\Source\repos\DataImporter\DataImporter.Api\obj\Debug\netcoreapp3.1\DataImporter.Api.genruntimeconfig.cache
 C:\Users\Master\Source\repos\DataImporter\DataImporter.Api\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\Master\Source\repos\DataImporter\DataImporter.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Master\source\repos\DataImporter\DataImporter.Api\bin\Debug\netcoreapp3.1\CsvHelper.dll

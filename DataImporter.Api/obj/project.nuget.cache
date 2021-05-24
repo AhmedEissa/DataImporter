@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "M5EjhZMjMOrYfy+lBV0YjVo3Zb9uiOKu0bkL0vWd+8UFkhv/fVHdhV6k4sOZaIeMwNtZLuSy+iRX2J0jsZaO2w==",
+  "dgSpecHash": "LcOWVT9jCLirp976zA6DMhAqfQfQYj2TcoWvGJXHE1lOqBXyQUZTVewky3AvABMTPJcGgUlrDHm+r3DdC3pDJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Master\\source\\repos\\DataImporter\\DataImporter.Api\\DataImporter.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Master\\.nuget\\packages\\csvhelper\\27.0.4\\csvhelper.27.0.4.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
