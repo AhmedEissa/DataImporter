@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
+using System.Configuration;
 using DataImporter.Core;
 using DataImporter.Repository;
 using DataImporter.Repository.Contexts;
@@ -17,10 +17,9 @@ namespace DataImporter.ConsoleApp
         {
             string filesPath = Environment.CurrentDirectory;
             filesPath = filesPath + "\\TestData";
-            //var csvService = new CSVService();
-            //csvService.LoadFiles(filesPath);
+            var constr = ConfigurationManager.ConnectionStrings["DataImporter"].ConnectionString;
             var optionBuilder = new DbContextOptionsBuilder<DataImporterDbContext>();
-            optionBuilder.UseSqlServer("Server=localhost;...");//put the connection str from the config file
+            optionBuilder.UseSqlServer(constr);
             var context = new DataImporterDbContext(optionBuilder.Options);
 
             var dataImportSvr = new DataImporterService(new ProductRepository(context));
